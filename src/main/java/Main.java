@@ -11,7 +11,7 @@ public class Main {
     int x = 5;
 
   public static void main(String[] args) {
-    Categories Pro = new Professional(new Tops());
+    Categories Pro = new Professional(new Tops("12","red","silk"));
     
     
   }

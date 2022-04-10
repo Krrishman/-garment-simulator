@@ -5,7 +5,7 @@
 
 /**
  *
- * @author Dadavai
+ * @author Sayed Haque
  */
 public class Professional extends Categories{
     

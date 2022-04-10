@@ -5,7 +5,7 @@
 
 /**
  *
- * @author Dadavai
+ * @author Sayed Haque
  */
 public class Tops extends Clothing {
     private String fabric;

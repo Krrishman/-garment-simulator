@@ -11,6 +11,7 @@ public class Main {
     int x = 5;
 
   public static void main(String[] args) {
+    Categories Pro = new Professional(new Tops());
     
     
   }

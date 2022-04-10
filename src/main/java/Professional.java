@@ -9,4 +9,7 @@
  */
 public class Professional extends Categories{
     
+    public Professional(Clothing c) {
+		super(c);
+	}
 }

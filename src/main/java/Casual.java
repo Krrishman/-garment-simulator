@@ -9,4 +9,7 @@
  */
 public class Casual extends Categories{
     
+     public Casual(Clothing c) {
+		super(c);
+	}
 }

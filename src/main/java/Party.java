@@ -9,4 +9,7 @@
  */
 public class Party extends Categories {
     
+    public Party(Clothing c) {
+		super(c);
+	}
 }

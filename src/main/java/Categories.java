@@ -8,5 +8,9 @@
  * @author Sayed Haque
  */
 public abstract class Categories {
+    protected Clothing cloth;
     
+    public Categories(Clothing c) {
+		this.cloth = c;
+	}
 }

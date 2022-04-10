@@ -7,6 +7,12 @@
  *
  * @author Dadavai
  */
-public class Shoes {
+public class Shoes extends Clothing {
     
+
+    public Shoes(String s, String c)
+    {
+        super(s,c);
+    }
+
 }

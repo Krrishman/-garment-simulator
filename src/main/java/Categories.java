@@ -7,6 +7,6 @@
  *
  * @author Dadavai
  */
-public class Categories {
+public abstract class Categories {
     
 }

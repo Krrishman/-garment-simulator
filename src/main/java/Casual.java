@@ -7,6 +7,6 @@
  *
  * @author Dadavai
  */
-public class Casual {
+public class Casual extends Categories{
     
 }

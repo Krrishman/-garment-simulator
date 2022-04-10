@@ -7,6 +7,6 @@
  *
  * @author Dadavai
  */
-public class Professional {
+public class Professional extends Categories{
     
 }

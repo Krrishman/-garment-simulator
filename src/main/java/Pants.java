@@ -7,6 +7,17 @@
  *
  * @author Dadavai
  */
-public class Pants {
-    
+public class Pants extends Clothing {
+    private String fabric;
+
+    public Pants(String s, String c, String f)
+    {
+        super(s,c);
+        this.fabric=f;
+    }
+
+    public String getFabric()
+    {
+        return this.fabric;
+    }
 }

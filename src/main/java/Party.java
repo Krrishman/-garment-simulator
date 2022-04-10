@@ -7,6 +7,6 @@
  *
  * @author Dadavai
  */
-public class Party {
+public class Party extends Categories {
     
 }

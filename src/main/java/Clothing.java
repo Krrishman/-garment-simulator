@@ -18,4 +18,7 @@ public class Clothing {
     }
     public String getSize(){return this.size;}
     public String getColor(){return this.color;}
+    public void Select(){
+        System.out.println( "you selected");
+        }
 }

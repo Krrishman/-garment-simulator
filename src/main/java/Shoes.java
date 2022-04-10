@@ -14,5 +14,8 @@ public class Shoes extends Clothing {
     {
         super(s,c);
     }
-
+    @Override
+    public void Select(){
+        System.out.println( "you selected");
+        }
 }

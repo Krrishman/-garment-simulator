@@ -12,7 +12,8 @@ public class Main {
 
   public static void main(String[] args) {
     Categories Pro = new Professional(new Tops("12","red","silk"));
-    
+    String x=Pro.Select;
+    System.out.println(Pro);
     
   }
     

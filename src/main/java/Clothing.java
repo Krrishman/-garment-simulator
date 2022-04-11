@@ -7,7 +7,7 @@
  *
  * @author Sayed Haque
  */
-public abstract class Clothing {
+public interface Clothing {
     
     public abstract String pro();
     public abstract String casual();

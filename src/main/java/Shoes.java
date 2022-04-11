@@ -7,10 +7,10 @@
  *
  * @author Sayed Haque
  */
-public class Shoes extends Clothing {
+public class Shoes implements Clothing {
     
     @Override
-    public String pro(){return "Black Heel Pumps";}
-    public String casual(){return "Gray Joggers";}
-    public String party(){return "Stripped Boots";}
+    public String pro(){return "Black Heel Pumps Shoes\n";}
+    public String casual(){return "Classic Sneakers Shoes\n";}
+    public String party(){return "Stripped Boots Shoes\n";}
 }

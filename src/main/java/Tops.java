@@ -7,12 +7,10 @@
  *
  * @author Sayed Haque
  */
-public class Tops extends Clothing {
-
-   
+public class Tops implements Clothing {
 
     @Override
-    public String pro(){return "Long Sleve pink Tops";}
-    public String casual(){return "Long Sleve white T-shirt";}
-    public String party(){return "White Flower Dress";}
+    public String pro(){return "Long Sleve pink Tops\n";}
+    public String casual(){return "Long Sleve white T-shirt\n";}
+    public String party(){return "White Flower Dress\n";}
 }

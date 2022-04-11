@@ -15,6 +15,6 @@ public class Professional extends Categories{
     
     @Override
     public String choose(){
-    return cloth.Select();
+    return "We Have "+cloth.pro();
     }
 }

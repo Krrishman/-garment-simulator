@@ -13,7 +13,5 @@ public abstract class Categories {
     public Categories(Clothing c) {
 		this.cloth = c;
 	}
-    public String choose(){
-    return cloth.Select();
-    }
+    public abstract String choose();
 }

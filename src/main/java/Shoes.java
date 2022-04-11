@@ -9,13 +9,8 @@
  */
 public class Shoes extends Clothing {
     
-
-    public Shoes(String s, String c)
-    {
-        super(s,c);
-    }
     @Override
-    public String Select(){
-        return "you selected";
-        }
+    public String pro(){return "Black Heel Pumps";}
+    public String casual(){return "Gray Joggers";}
+    public String party(){return "Stripped Boots";}
 }

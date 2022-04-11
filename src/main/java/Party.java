@@ -15,6 +15,6 @@ public class Party extends Categories {
     
     @Override
     public String choose(){
-    return cloth.Select();
+    return "We Have "+cloth.party();
     }
 }

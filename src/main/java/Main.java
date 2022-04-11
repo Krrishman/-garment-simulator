@@ -11,9 +11,13 @@ public class Main {
     int x = 5;
 
   public static void main(String[] args) {
-    Categories Pro = new Professional(new Tops("12","red","silk"));
-    String x=Pro.choose();
-    System.out.println(Pro);
+    Categories Pro = new Professional(new Tops());
+    //String x=Pro.choose();
+    Pro.choose();
+    System.out.println(Pro.choose());
+    
+    Pro = new Casual(new Tops());
+    System.out.println(Pro.choose());
     
   }
     

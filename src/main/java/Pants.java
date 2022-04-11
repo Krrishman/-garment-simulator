@@ -8,20 +8,9 @@
  * @author Sayed Haque
  */
 public class Pants extends Clothing {
-    private String fabric;
 
-    public Pants(String s, String c, String f)
-    {
-        super(s,c);
-        this.fabric=f;
-    }
-
-    public String getFabric()
-    {
-        return this.fabric;
-    }
     @Override
-    public String Select(){
-        return "you selected";
-        }
+    public String pro(){return "Black Pants";}
+    public String casual(){return "Gray Joggers";}
+    public String party(){return "Check Pants";}
 }

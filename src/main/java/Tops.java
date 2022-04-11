@@ -8,20 +8,11 @@
  * @author Sayed Haque
  */
 public class Tops extends Clothing {
-    private String fabric;
 
-    public Tops(String s, String c, String f)
-    {
-        super(s,c);
-        this.fabric=f;
-    }
+   
 
-    public String getFabric()
-    {
-        return this.fabric;
-    }
     @Override
-    public String Select(){
-        return "you selected"+ getColor() + getSize() +"hff";
-        }
+    public String pro(){return "Long Sleve pink Tops";}
+    public String casual(){return "Long Sleve white T-shirt";}
+    public String party(){return "White Flower Dress";}
 }

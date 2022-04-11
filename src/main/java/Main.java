@@ -12,11 +12,12 @@ public class Main {
 
   public static void main(String[] args) {
     Categories Pro = new Professional(new Tops());
-    //String x=Pro.choose();
-    Pro.choose();
     System.out.println(Pro.choose());
     
     Pro = new Casual(new Tops());
+    System.out.println(Pro.choose());
+    
+    Pro = new Party(new Tops());
     System.out.println(Pro.choose());
     
   }

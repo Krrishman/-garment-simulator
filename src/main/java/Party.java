@@ -15,6 +15,6 @@ public class Party extends Categories {
     
     @Override
     public String choose(){
-    return "We Have "+cloth.party();
+    return "From Party Selection:\nWe Have "+cloth.party();
     }
 }

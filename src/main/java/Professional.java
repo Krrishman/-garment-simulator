@@ -15,6 +15,6 @@ public class Professional extends Categories{
     
     @Override
     public String choose(){
-    return "We Have "+cloth.pro();
+    return "From Professional Selection:\nWe Have "+cloth.pro();
     }
 }

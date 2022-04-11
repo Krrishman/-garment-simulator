@@ -15,6 +15,6 @@ public class Casual extends Categories{
      
     @Override
     public String choose(){
-    return "We Have "+cloth.casual();
+    return "From Casual Selection:\nWe Have "+cloth.casual();
     }
 }

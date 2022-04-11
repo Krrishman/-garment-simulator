@@ -21,7 +21,7 @@ public class Pants extends Clothing {
         return this.fabric;
     }
     @Override
-    public void Select(){
-        System.out.println( "you selected");
+    public String Select(){
+        return "you selected";
         }
 }

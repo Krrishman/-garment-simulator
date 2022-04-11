@@ -12,4 +12,9 @@ public class Casual extends Categories{
      public Casual(Clothing c) {
 		super(c);
 	}
+     
+    @Override
+    public String choose(){
+    return cloth.Select();
+    }
 }

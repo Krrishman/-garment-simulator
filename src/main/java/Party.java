@@ -12,4 +12,9 @@ public class Party extends Categories {
     public Party(Clothing c) {
 		super(c);
 	}
+    
+    @Override
+    public String choose(){
+    return cloth.Select();
+    }
 }

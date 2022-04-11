@@ -21,7 +21,7 @@ public class Tops extends Clothing {
         return this.fabric;
     }
     @Override
-    public void Select(){
-        System.out.println( "you selected"+ getColor() + getSize() +"hff");
+    public String Select(){
+        return "you selected"+ getColor() + getSize() +"hff";
         }
 }

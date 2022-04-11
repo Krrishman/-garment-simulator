@@ -13,4 +13,8 @@ public class Professional extends Categories{
 		super(c);
 	}
     
+    @Override
+    public String choose(){
+    return cloth.Select();
+    }
 }

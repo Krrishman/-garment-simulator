@@ -7,7 +7,7 @@
  *
  * @author Sayed Haque
  */
-public class Clothing {
+public abstract class Clothing {
     private String size;
     private String color;
     
@@ -18,7 +18,5 @@ public class Clothing {
     }
     public String getSize(){return this.size;}
     public String getColor(){return this.color;}
-    public void Select(){
-        System.out.println( "you selected");
-        }
+    public abstract String Select();
 }
